@@ -1,0 +1,84 @@
+.footer_container{
+    background-color: #7337F2;
+    width: 100%;
+    padding: 40px 80px;
+    color: white;
+}
+.footer_heading{
+    text-align: center;
+    font-size: 25px;
+}
+.footer_subtitle{
+    text-align: center;
+    margin-top: 10px;
+}
+.bottom_nav_links{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px;
+}
+.bnl_logo img{
+    width: 200px;
+    height: auto;
+    object-fit: contain;
+}
+.bnl_links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.bnl_social_icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.ico_social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ico_social img{
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    object-fit: contain;
+}
+
+.bnl_links .link {
+    color: white;
+}
+.copyright{
+    text-align: center;
+    padding: 15px 0px;
+}
+
+
+@media (max-width : 680px) {
+    .footer_container{
+        width: 100%;
+        padding: 20px 0px;
+    }
+    .bottom_nav_links{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column-reverse;
+        gap: 50px;
+        padding: 40px 0px;
+    }
+    .bnl_links{
+        display: none;
+    }
+    .footer_heading{
+        text-align: center;
+        font-size: 20px;
+    }
+    .footer_subtitle{
+        text-align: center;
+        font-size: 14px;
+        padding: 0px 20px;
+        margin-top: 10px;
+    }
+}

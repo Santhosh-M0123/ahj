@@ -1,0 +1,108 @@
+.hero_container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+    padding: 40px 80px;
+}
+.hero_heading h1{
+    font-size: 55px;
+    font-weight: 600;
+}
+.hero_subquote p{
+    font-size: 20px;
+}
+.hero_service_search{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 10px;
+    width: 70%;
+    height: 50px;
+    /* padding: 0px 20px; */
+    /* padding-top: 10px;
+    padding-bottom: 10px; */
+    padding-left: 20px;
+    padding-right: 2px;
+    /* background-color: gray; */
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+.search_input{
+    width: 70%;
+    height: 100%;
+}
+.search_input input{
+    height: 100%;
+    width: 100%;
+    border: 0px;
+}
+input:focus{
+    outline: none;
+}
+.search_icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.book_now{
+    background-color: #7337F2;
+    color: white;
+    /* width: 100%; */
+    font-weight: bolder;
+    padding: 10px 20px;
+    font-size: 15px;
+    width: 120px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.services_list_item{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5px;
+    flex-wrap: wrap;
+    margin-top: 15px;
+    font-size: 12px;
+    color: #7337F2;
+    width: 70%;
+}
+.search_list{
+    padding: 5px 10px;
+    border: 1px solid #7337F2;
+    cursor: pointer;
+}
+
+
+@media (max-width : 680px) {
+    .hero_heading h1{
+        font-size: 35px;
+        font-weight: 600;
+    }
+    .services_list_item{
+        display: none;
+    }
+    .hero_service_search{
+        display: none;
+        /* width: 100%; */
+    }
+    .hero_container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        gap: 30px;
+        padding: 40px 20px;
+    }
+    .hero_img img{
+        width: 320px;
+        height: auto;
+        object-fit: contain;
+    }
+    .hero_subquote p{
+        font-size: 15px;
+    }
+}

@@ -1,0 +1,39 @@
+.Nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    /* position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white; */
+}
+.nav_links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.logo img{
+    width: 200px;
+    height: auto;
+    object-fit: contain;
+}
+.scrollToTop{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+@media (max-width : 680px) {
+    .nav_links{
+        display: none;
+    }
+    .logo img{
+        width: 150px;
+        height: auto;
+        object-fit: contain;
+    }
+    
+}
