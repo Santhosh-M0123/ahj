@@ -60,7 +60,7 @@ const TopNav = () => {
         </div>
     </div>
     <div className="scrollToTop" onClick={() => scrollToTop()}>
-        <span>top</span>
+        <img src="./ahj/topicon.png" alt="top-icon" />
     </div>
     </>
   )
