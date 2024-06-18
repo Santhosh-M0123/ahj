@@ -6,7 +6,7 @@ const Teams = () => {
     <div className='teams_container'>
         <div className="teams_container_left">
             <div className="img_overlayer">
-            <img src="./ahj/teams.png" alt="teams_image" />
+            <img src="./ahj/teams.png" alt="teams_image" loading='lazy'/>
             </div>
         </div>
         <div className="teams_container_right">

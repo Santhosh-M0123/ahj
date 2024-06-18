@@ -14,7 +14,7 @@ const About = () => {
         </div>
         <div className="about_content_container">
           <div className="about_content_left">
-            <img src="./ahj/about_1.png" alt="about_img" />
+            <img src="./ahj/about_1.png" alt="about_img" loading='lazy'/>
           </div>
           <div className="about_content_right">
             <div className="about_content_head">
@@ -29,7 +29,7 @@ doorstep.</p>
         </div>
         <div className="about_content_container flex-wrap">
           <div className="about_content_left">
-            <img src="./ahj/about_2.png" alt="about_img" />
+            <img src="./ahj/about_2.png" alt="about_img" loading='lazy'/>
           </div>
           <div className="about_content_right">
             <div className="about_content_head">
@@ -40,7 +40,7 @@ doorstep.</p>
         </div>
         <div className="about_content_container">
           <div className="about_content_left">
-            <img src="./ahj/about_3.png" alt="about_img" />
+            <img src="./ahj/about_3.png" alt="about_img" loading='lazy'/>
           </div>
           <div className="about_content_right">
             <div className="about_content_head">

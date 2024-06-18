@@ -13,19 +13,12 @@
   font-style: normal;
 }
 
-@font-face {
+/* @font-face {
   font-family: 'poppins-black';
   src: url("./assest/Poppins/Poppins-Black.ttf") format('truetype');
   font-weight: bold;
   font-style: normal;
-}
-
-@font-face {
-  font-family: 'poppins-light';
-  src: url('./assest/Poppins/Poppins-Light.ttf') format('truetype');
-  font-weight: bold;
-  font-style: normal;
-}
+} */
 
 @font-face {
   font-family: 'poppins-regular';
@@ -41,12 +34,12 @@
   font-style: normal;
 }
 
-@font-face {
+/* @font-face {
   font-family: 'poppins-italic';
   src: url('./assest/Poppins/Poppins-BlackItalic.ttf') format('truetype');
   font-weight: bold;
   font-style: normal;
-}
+} */
 
 
 

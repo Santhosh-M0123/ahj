@@ -44,7 +44,7 @@ const Card = ({content}) => {
         <div className="card_header">
             <div className="card_profile">
                 <div className="profile_img">
-                    <img src="./ahj/about.png" alt="Profile_image" />
+                    <img src="./ahj/about.png" alt="Profile_image" loading='lazy'/>
                 </div>
                 <div className="profile_name">
                     <p>{content.user}</p>
@@ -52,7 +52,7 @@ const Card = ({content}) => {
                 </div>
             </div>
             <div className="social_icon">
-                <img src="./ahj/instagram.svg" alt="instagram" />
+                <img src="./ahj/instagram.svg" alt="instagram" loading='lazy'/>
             </div>
         </div>
         <div className="card_body">

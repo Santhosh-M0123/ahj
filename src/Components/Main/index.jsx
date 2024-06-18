@@ -16,12 +16,12 @@ const Hero = () => {
                 <Highlights />
             </div>
             <div className="hero_heading">
-                <h1>On-demand home services are just 24 hours away!</h1>
+                <h1>Your on-demand home services are just a day away!</h1><br />
             </div>
             <div className="hero_subquote">
                 <p>Enjoy quick, reliable solutions when you need them most with our on-demand services.</p>
             </div>
-            <div className="hero_service_search">
+            {/* <div className="hero_service_search">
                 <div className="search_icon">
                     <img src="./ahj/search.svg" alt="search_icon" />
                 </div>
@@ -38,7 +38,7 @@ const Hero = () => {
                     setShowMore(prev => !prev)
                     setListN(ServicesList.length)
                     }} style={{color : 'black', cursor : "pointer"}}>Show more...</span> : ""}
-            </div>
+            </div> */}
         </div>
         <div className="container_right">
             <div className="hero_img">

@@ -29,7 +29,7 @@ const Services = () => {
 const ServiceCard = ({values}) => {
     return <div className='service_card'>
         <div className="service_card_header">
-            <img src={values.path} alt="website_service_images"/>
+            <img src={values.path} alt="website_service_images" loading='lazy'/>
         </div>
         <div className="service_card_body">
             <div className="service_title">
