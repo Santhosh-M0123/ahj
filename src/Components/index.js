@@ -5,6 +5,7 @@ import Teams from "./Teams";
 import Testimonials from "./Testimonials";
 import Services from "./Services";
 import Footer from "./Footer";
+import Contact from "./Contact";
 
 const Components = {
     TopNav,
@@ -13,6 +14,7 @@ const Components = {
     Teams,
     Testimonials,
     Services,
+    Contact,
     Footer
 }
 

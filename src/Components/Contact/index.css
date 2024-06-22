@@ -1,0 +1,38 @@
+.contact_section{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 40px 50px;
+    /* background-color: whitesmoke */
+    background-color: #7337F2;
+    color: white;
+    border: 1px solid #7337F2;
+}
+.contact_section_left span{
+    font-size: 30px;
+}   
+.contact_now_btn button{
+    padding: 16px 35px;
+    background-color: #ECECFF;
+    color: black;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 1px solid #ECECFF;
+    font-size: 16px;
+}
+
+@media (max-width : 680px) {
+    .contact_section{
+        padding: 30px 20px;
+    }
+    .contact_section_left span{
+        font-size: 20px;
+    }   
+    .contact_now_btn button{
+        padding: 13px 25px;
+        font-size: 13px;
+        margin-top: 10px;
+    }
+}

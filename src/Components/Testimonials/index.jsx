@@ -3,25 +3,30 @@ import "./index.css";
 
 const Testimonials = () => {
     const Feedback = [{
-        user : "John",
-        userid : "@John",
-        feedback : "Beautiful new ceiling, fast and professional. Highly recommend!"
+        user : "Pradeep",
+        userid : "@pradeep",
+        feedback : "Beautiful new ceiling, fast and professional. Highly recommend!",
+        image : "./ahj/client_pradeep.jpeg"
     },{
         user : "santhosh",
         userid : "@Santhosh",
-        feedback : "Leaky faucet fixed in a flash!  These guys saved the day (and my carpet)."
+        feedback : "Leaky faucet fixed in a flash!  These guys saved the day (and my carpet).",
+        image : "./ahj/client_santhosh.jpeg"
     },{
-        user : "Pradeep",
-        userid : "@Pradeep",
-        feedback : "Cracked wall? Gone! My living room looks brand new again."
+        user : "Shanfar Ahammed",
+        userid : "@shanfar_ahammed",
+        feedback : "Cracked wall? Gone! My living room looks brand new again.",
+        image : null
     },{
         user : "Badrinath",
         userid : "@badrinath",
-        feedback : "From flickering lights to perfect brightness, A+ service!"
+        feedback : "From flickering lights to perfect brightness, A+ service!",
+        image : "./ahj/badri_client.enc"
     },{
-        user : "santhosh",
-        userid : "@Santhosh",
-        feedback : "Cracked wall? Gone! My living room looks brand new again."
+        user : "Unni Krishnan",
+        userid : "@unni_krishnan",
+        feedback : "Cracked wall? Gone! My living room looks brand new again.",
+        image : undefined
     }]
   return (
     <div className='testimonials_container'>
@@ -44,7 +49,7 @@ const Card = ({content}) => {
         <div className="card_header">
             <div className="card_profile">
                 <div className="profile_img">
-                    <img src="./ahj/about.png" alt="Profile_image" loading='lazy'/>
+                   {content.image ?  <img src={content.image} alt="Profile_image" loading='lazy'/> : <span>{content.user.charAt(0)}</span>}
                 </div>
                 <div className="profile_name">
                     <p>{content.user}</p>

@@ -1,7 +1,7 @@
 import React from 'react'
 import Components from '../Components';
 
-const {TopNav,Hero,About,Teams,Testimonials,Services,Footer} = Components;
+const {TopNav,Hero,About,Teams,Testimonials,Services,Contact,Footer} = Components;
 
 const Main = () => {
   return (
@@ -23,6 +23,9 @@ const Main = () => {
         </div>
         <div className="teams_section_layout" id='teams'>
           <Teams />
+        </div>
+        <div className="contact_section_layout" id='contact'>
+          <Contact />
         </div>
         <div className="testimonials_section_layout" id='testimonials'>
           <Testimonials />
